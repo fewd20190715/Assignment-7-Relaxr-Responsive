@@ -288,5 +288,91 @@ footer p {
   font-weight: 600;
 }
 
+/* breakpoint */
+@media (max-width:768px) {
 
+/* index elements change + some global elements */
+.container {
+margin: 0 auto !important;
+width: 95% !important;
+}
 
+.logo {
+  padding-left: 20px;
+  font-size: 1.5em;
+}
+#hero {
+  width: 100%;
+}
+
+#hero h2 {
+   font-size: 20px;
+ }
+
+header nav{
+  width: 75%;
+  padding-left: 100px;
+  display: inline-block;
+  float: right !important;
+}
+
+nav li{
+  font-size: 18px !important;
+}
+.button {
+  width: 25%;
+  font-size: 1em;
+}
+#bottom-cta {
+  font-size: 16px;
+}
+h3 {
+  font-size: 26px;
+  padding-left: 20px;
+}
+
+#benefits p{
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+#benefits ul{
+  font-size: 16px;
+}
+
+#testimonial blockquote{
+  font-size: 26px;
+  line-height: 36px;
+}
+.copyright {
+  font-size: 12px;
+}
+
+/* blog elements change for breakpoint */
+
+#posts{
+  width: 95% !important;
+}
+
+#posts h2 {
+  font-size: 20px;
+}
+
+#posts img{
+  width: 100%;
+}
+
+#posts p{
+  font-size: 16px;
+
+}
+#sidebar img {
+  display:none;
+}
+
+#sidebar {
+  margin: 0 auto;
+  width: 100%;
+}
+
+}
