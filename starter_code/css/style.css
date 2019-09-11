@@ -1,7 +1,7 @@
 /*
 Project Name: Blank Template
 Client: Your Client
-Author: Your Name
+Author: Jianna Park
 Developer @GA in NYC
 */
 
@@ -289,4 +289,126 @@ footer p {
 }
 
 
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 40px;
+  }
 
+  header nav ul li {
+    font-size: 20px;
+  }
+
+  #hero {
+    height: 600px;
+  }
+
+  #hero h2 {
+    font-size: 40px;
+  }
+
+  .button {
+    font-size: 20px;
+  }
+
+  #benefits {
+    padding: 80px 20px 70px;
+  }
+
+  #benefits p {
+    font-size: 25px;
+  }
+
+  #benefits ul {
+    font-size: 20px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 25px;
+  }
+
+  #main .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  blockquote {
+    font-size: 28px;
+  }
+
+  #posts {
+    width: 100%;
+  }
+
+  .post img {
+    width: 100%;
+  }
+
+  .post p {
+  font-size: 18px;
+  }
+
+  .post h2 {
+    font-size: 30px;
+  }
+
+  #sidebar {
+    width: 30%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #sidebar h3 {
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  #sidebar ul {
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #sidebar ul li a {
+    font-size: 18px;
+    line-height: 2px;
+  }
+
+  #sidebar p {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+
+  #sidebar img {
+    height: inherit;
+    margin-left: 60px;
+  }
+
+  #bottom-cta {
+    padding: 25px;
+  }
+
+  .blue {
+    font-size: 20px;
+  }
+
+  footer {
+    padding: 50px 0 45px;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+}
