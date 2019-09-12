@@ -288,5 +288,108 @@ footer p {
   font-weight: 600;
 }
 
+/* this is where mobile starts*/
 
+@media (max-width: 768px) {
 
+  .container {
+    display:block;
+    width: 100%;
+  }
+  
+  #benefits {
+    display:block;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  #testimonial {
+    display:block;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.3rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  #benefits {
+    padding: 20px 20px;
+  }
+      
+  #hero h2 {
+    font-size: 2rem;
+  }
+  
+  header nav {
+    float: none;
+    display: inline-block;
+  }
+  
+  .logo {
+    font-size: 44px;
+    font-weight: 800;
+    padding-left: 10px;
+  }
+  
+  header nav ul li {
+    width: 100%;
+    border-bottom: solid 2px white;
+    margin: auto;
+    padding: 0 150px 0;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  blockquote {
+    font-size: 1.5rem;
+    padding: 0 10px;
+  }
+  
+  .button {
+    width: 180px;
+    font-size: 1.5rem;
+  }
+  
+  .blue {
+      font-size: 1.5rem;
+  }
+  
+  #posts {
+    display:block;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  img {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .post > h2 {
+    font-size: 2rem;
+  }
+  
+  .post > p {
+    font-size: 1.3rem;
+  }
+  
+  #sidebar {
+    padding: 0 15px;
+  }
+  
+  #sidebar > h3 {
+    font-size: 1.5rem;
+  }
+  
+  #sidebar > p {
+    font-size: 1.3rem;
+  }
+  
+  }  
